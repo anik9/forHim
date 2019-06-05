@@ -51,16 +51,9 @@ a:hover{
     flex-direction: column;
     background-image: url("img/banner_background2.jpg");
     background-repeat: no-repeat;
-    background-size: 100%;
+    background-size: cover;
+    background-position: center;
 }
-
-/* .info{
-    background-color: white;
-    height: 45%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-} */
 
 .text-area{
     width: 25%;
