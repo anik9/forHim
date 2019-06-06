@@ -85,6 +85,8 @@ a:hover{
     .banner{
         position: relative;
         top: -30px;
+        height: 109%;
+        width:108%;
     }
 
     ul{
