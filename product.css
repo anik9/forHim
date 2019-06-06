@@ -48,7 +48,7 @@ a:hover{
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    background-image: url("img/hair_banner2.jpeg");
+    background-image: url("img/pomade_banner2.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -67,6 +67,7 @@ a:hover{
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
+    
 }
 
 .product-card{
@@ -76,6 +77,7 @@ a:hover{
     text-align: center;
     padding: 5px;
     margin: 10px;
+
 }
 
 .product-card:hover{
