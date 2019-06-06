@@ -1,20 +1,52 @@
 <html>
     <head>
         <title>STUDIO ANIK</title>
+        <meta name="viewport" content="width=device-width,initial-scale=1">
         <link rel="stylesheet" href="product.css">
     </head>
 
     <body>
-        <nav>
-            <ul>
-                <li><a href="index.html">HOME </a></li>
-                <li><a href="product.html">PRODUCTS</a></li>
-                <li><a href="hair.html">HAIR</a></li>
-            </ul>
-        </nav>
+        <!-- Mobile Nav Menu -->
+        <nav role="navigation">
+                <div id="menuToggle">
+                  <!--
+                  A fake / hidden checkbox is used as click reciever,
+                  so you can use the :checked selector on it.
+                  -->
+                  <input type="checkbox" />
+                  
+                  <!--
+                  Some spans to act as a hamburger.
+                  
+                  They are acting like a real hamburger,
+                  not that McDonalds stuff.
+                  -->
+                  <span></span>
+                  <span></span>
+                  <span></span>
+                  
+                  <!--
+                  Too bad the menu has to be inside of the button
+                  but hey, it's pure CSS magic.
+                  -->
+                  <ul id="menu" class="font-family">
+                    <a href="index.html"><li>Home</li></a>
+                    <a href="product.html"><li>Products</li></a>
+                    <a href="hair.html"><li>Hair</li></a>
+                  </ul>
+                </div>
+              </nav>
+        <!-- END Mobile Nav Menu -->
+    <div class="nav">
+        <ul>
+            <li><a href="index.html">HOME </a></li>
+            <li><a href="product.html">PRODUCTS</a></li>
+            <li><a href="hair.html">HAIR</a></li>
+        </ul>
+    </div>
 
         <div class="hair-banner">
-            "PRODUCTS"
+            PRODUCTS
             <div class="text">
                     Choose the right products for your hair
             </div>
@@ -22,50 +54,59 @@
 
         <div class="product-container">
             <div class="product-card" >
-                <img src= "img/claymation.jpg" width="320" height="320">
+                <a href="https://www.amazon.com/Hanz-Fuko-Premium-Styling-Claymation/dp/7178679743"><img src= "img/claymation.jpg" ></a>
                 <div class="text-area">
                     <h1>Hanz De Fuko- Claymation</h1>
-                    <p>Perfect for short to medium hair.</p>
+                    <p>Contains all natural ingredients and Certified Organic Extracts, which means it’s actually good for your hair while providing powerful, “all-day” nourishment from roots to ends. 
+                        Provides supreme holding power with ultimate pliability for the perfect, semi-matte hairstyle. Completely water soluble. </p>
                 </div>
             </div>
 
             <div class="product-card" >
-                <img src= "img/baxter.jpg" class="image-responsive" alt="image">
+                <a href="https://www.amazon.com/Baxter-California-Clay-Pomade-fl/dp/B000MIKEZQ"> <img src= "img/baxter.jpg"> </a>
                 <div class="text-area">
                     <h1>Baxter- Clay Pomade</h1>
-                    <p>For firm hold and matter finish.</p>
+                    <p>Paraben-free hair styling pomade infused with natural, ethically-sourced ingredients such as clay and beewax. Texturizes and molds
+                       hair into place to deliver a strong, pliable hold. Works well in any hair type.</p>
                 </div>
             </div>
 
             <div class="product-card" >
-                <img src= "img/mitch.jpg">
+                <a href="https://www.paulmitchell.com/mitch/reformer/"> <img src= "img/mitch.jpg"> </a>
                 <div class="text-area">
                     <h1>Mitch- Reformer</h1>
-                    <p>Perfect for short to medium hair.</p>
+                    <p>Pliable putty styling product that helps you bulk up fine or thin hair. Your styles will benefit from a strong hold, 
+                        while thickening ingredients help create gritty, modern texture. Your hair will look healthy and full. </p>
                 </div>
             </div>
 
             <div class="product-card" >
-                <img src= "img/dub.jpg">
+               <a href="https://www.amazon.com/Pomade-100ml-pomade-Mr-Natty/dp/B00KE3CVWS"> <img src= "img/dub.jpg"> </a>
                 <div class="text-area">
                     <h1>Mr.Natty- DUB</h1>
-                    <p>Perfect for short to medium hair.</p>
+                    <p>
+                            
+                            All round shine and a firm hold, honestly, we could be describing you. Natty Dub adds weight when applied on dry hair and slickness when wet. 
+                            It has the dry, matt roughness of our Clay and the sharpness and heritage-vibe of Pomade Wax. Great for long and short hair.</p>
                 </div>
             </div>
 
             <div class="product-card" >
-                <img src= "img/fiber.jpg">
+                <a href="https://shop.americancrew.com/fiber"> <img src= "img/fiber.jpg"> </a>
                 <div class="text-area">
                     <h1>American Crew- Fiber</h1>
-                    <p>Perfect for short to medium hair.</p>
+                    <p>High hold with low shine Fiber-like, resinous product helps thicken, texturize and increase fullness to hair. Provides a
+                         strong, pliable hold with a matte finish. Works well in shorter hair, 1-3 inches in length.</p>
                 </div>
             </div>
 
             <div class="product-card" >
-                <img src= "img/odouds.jpg">
+                <a href="https://odouds.us/products/matte-paste"> <img src= "img/odouds.jpg"> </a>
                 <div class="text-area">
                     <h1>O'douds- Matter Paste</h1>
-                    <p>Perfect for short to medium hair.</p>
+                    <p>A high hold, matte finish styling cream.
+                     Natural waxes, clays, and oils provide a strong, voluminous, and malleable hold that lasts all day 
+                     and will leave your hair strong and healthy.</p>
                 </div>
             </div>
 
