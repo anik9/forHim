@@ -78,6 +78,11 @@ a:hover{
 /* Mobile Menu Nav Media Query */
 @media screen and (max-width: 680px){
 
+  body{
+    overflow-x: hidden;
+    overflow-y: hidden;
+  }
+
     nav[role="navigation"]{
         display: block;
     }
